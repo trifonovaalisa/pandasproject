@@ -6,10 +6,10 @@ d = {'Moscow': 1000, 'London': 300, 'Barcelona': None}
 cities = pd.Series(d)
 print(s)
 print (cities)
-# FIXME print(cities['Moscow','London'])
+# FIXME print(cities['Moscow','London']) ВЫВОД ДВУХ АРГУМЕНТОВ НЕ РАБОТАЕТ
 print(cities[cities < 1000])
-#  FIXME os.system('CLS')
-print(cities['Moscow'])
+#  FIXME os.system('CLS') ОЧИСТКА ЭКРАНА В ПИТОНЕ
+print(cities['Moscow']) #А АНАЛОГИЧНЫЙ ВЫВОД ОДНОГО АРГУМЕНТА РАБОТАЕТ
 cities['Moscow'] = 100
 cities[cities < 1000] = 3
 print(cities)
