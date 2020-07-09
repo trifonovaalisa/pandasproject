@@ -1,16 +1,16 @@
 import pandas as pd
 import numpy as np
-# import os
-# s = pd.Series([1,2,3,4], index=['a', 'b', 'c', 'd'])
-# d = {'Moscow': 1000, 'London': 300, 'Barcelona': None}
-# cities = pd.Series(d)
-# print(s)
-# print (cities)
-# #print(cities['Moscow','London'])
-# print(cities[cities < 1000])
-# #os.system('CLS')
-# print(cities['Moscow'])
-# cities['Moscow'] = 100
-# cities[cities < 1000] = 3
-# print(cities)
-# print(cities[cities.notnull()])
+import os
+s = pd.Series([1,2,3,4], index=['a', 'b', 'c', 'd'])
+d = {'Moscow': 1000, 'London': 300, 'Barcelona': None}
+cities = pd.Series(d)
+print(s)
+print (cities)
+# FIXME print(cities['Moscow','London'])
+print(cities[cities < 1000])
+#  FIXME os.system('CLS')
+print(cities['Moscow'])
+cities['Moscow'] = 100
+cities[cities < 1000] = 3
+print(cities)
+print(cities[cities.notnull()])
